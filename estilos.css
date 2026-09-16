@@ -10,3 +10,14 @@ line-height: 1.6;
 h1 {
 color: #4f8cff;
 }
+#miBoton {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#miBoton:hover {
+  background-color: darkblue;
+}
