@@ -21,3 +21,34 @@ color: #4f8cff;
 #miBoton:hover {
   background-color: darkblue;
 }
+/* Menú */
+#menu {
+    background-color: #222;
+    padding: 10px;
+}
+
+/* Lista del menú */
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Elementos de la lista */
+#menu li {
+    margin-right: 10px;
+}
+
+/* Enlaces del menú */
+#menu .enlace-menu {
+    color: #58a6ff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+/* Cuando pasamos el ratón por encima */
+#menu .enlace-menu:hover {
+    background-color: #58a6ff;
+    color: white;
+}
