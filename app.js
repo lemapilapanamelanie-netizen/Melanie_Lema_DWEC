@@ -6,7 +6,7 @@ let contador = 0;
 
 boton.addEventListener("click", function () {
   contador = contador + 1;
-  aviso.textContent = "Has pulsado el botón " + contador + " veces.";
+  aviso.textContent = "Has pulsado el botón " ;
 });
 const botonModoNoche = document.getElementById("modonoche");
 
@@ -19,4 +19,5 @@ botonModoNoche.addEventListener("click", function () {
         botonModoNoche.textContent = "🌙 Modo claro";
     }
 });
+
 
