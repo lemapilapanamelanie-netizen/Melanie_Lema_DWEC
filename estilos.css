@@ -52,3 +52,23 @@ color: #4f8cff;
     background-color: #58a6ff;
     color: white;
 }
+ /* MODO CLARO */
+body.tema-claro {
+    background-color: #ffffff;
+    color: #222222;
+}
+/* Menú en modo claro */
+body.tema-claro #menu {
+    background-color: #f0f0f0;
+}
+/* Enlaces del menú en modo claro */
+body.tema-claro #menu .enlace-menu {
+    color: #222222;
+}
+/* Botón del modo noche */
+#modonoche {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
